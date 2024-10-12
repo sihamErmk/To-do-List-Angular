@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Wake up early",
+      "day": "13 October at 6:00 am",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Studying",
+      "day": "14 October at 6:00 am",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Go outside",
+      "day": "15 October at 6:00 pm",
+      "reminder": true
+    },
+    {
+      "id": 4,
+      "text": "Go to the gym",
+      "day": "17 October at 8:00 am",
+      "reminder": true
+    }
+  ]
+}
