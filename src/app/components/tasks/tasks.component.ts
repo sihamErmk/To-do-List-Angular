@@ -59,7 +59,7 @@ export class TasksComponent implements OnInit {
   addTask(task:Task){
     this.taskService.addTask(task).subscribe(
       (data) => {
-        this.tasks.push(task)},
+        this.tasks.push(data)},
         (error) => {
         console.error('Error fetching tasks:', error);
       }

@@ -17,12 +17,6 @@
       "text": "Go outside",
       "day": "15 October at 6:00 pm",
       "reminder": true
-    },
-    {
-      "id": "4",
-      "text": "Go to the gym",
-      "day": "17 October at 8:00 am",
-      "reminder": true
     }
   ]
 }
