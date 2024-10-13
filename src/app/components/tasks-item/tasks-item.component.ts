@@ -14,9 +14,14 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 export class TasksItemComponent {
   @Input() task!:Task;
   @Output() ondeleteTask :EventEmitter<Task> = new EventEmitter();
+  @Output() onToggleReminder : EventEmitter<Task>=new EventEmitter();
   faTimes = faTimes;
   onDelete(task:Task ){
    this.ondeleteTask.emit(task);
+
+  }
+  onToggle(task:Task){
+    this.onToggleReminder.emit(task);
 
   }
 

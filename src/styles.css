@@ -8,10 +8,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
 }
 
 body{
   font-family: "Poppins",sans-serif;
+
 }
 .container {
 
@@ -19,7 +21,7 @@ body{
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
+  border: 1px solid #4682b4;
   padding: 30px;
   border-radius: 5px;
 
@@ -45,23 +47,24 @@ body{
 }
 .btn-block{
   display: block;
-  width: 100%;
+  width: 97%;
 }
-.add-form{
-  margin-bottom: 50px;
-}
+
 .form-control{
   margin:20px 0;
 }
 .form-control label{
   display: block;
+  color: rgb(2, 52, 106);
 }
 .form-control input{
-  width: 100%;
+  width: 97%;
   height: 40px;
   margin: 5px;
   padding: 3px 7px;
   font-size: 17px;
+  border: 2px solid steelblue;
+  border-radius: 5px;
 }
 .form-control-check{
   display: flex;
